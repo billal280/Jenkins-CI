@@ -4,7 +4,7 @@
 [![codecov](https://codecov.io/gh/billal280/Jenkins-CI/branch/main/graph/badge.svg)](https://codecov.io/gh/billal280/Jenkins-CI)
 
 ## 📌 Introduction
-Cette **Jenkins Shared Library** permet de centraliser et de réutiliser des scripts Groovy pour les pipelines Jenkins. Elle facilite la gestion des builds, tests et déploiements CI/CD.
+Cette Shared Library Jenkins permet de centraliser et de réutiliser des scripts Groovy pour les pipelines Jenkins. Elle facilite la gestion des builds, tests et déploiements.
 
 ## 📂 Structure du Projet
 ```code
