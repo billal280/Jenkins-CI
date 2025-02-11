@@ -1,6 +1,5 @@
 # Jenkins CI (Shared Library)
 
-![Build Status](https://github.com/billal280/Jenkins-CI/workflows/CI-Pipeline/badge.svg)
 ![Jenkins](https://img.shields.io/jenkins/build?jobUrl=https://jenkins.example.com/job/Jenkins-CI)
 [![codecov](https://codecov.io/gh/billal280/Jenkins-CI/branch/main/graph/badge.svg)](https://codecov.io/gh/billal280/Jenkins-CI)
 
