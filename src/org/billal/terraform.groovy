@@ -1,13 +1,20 @@
 package org.billal
 
-class terraform {
+class Terraform {
 
-
-    void terraformPlan () {
-            // Add the function to terraform Plan 
+    def terraformPlan(String environment) {
+        withCredentials([usernamePassword(credentialsId: 'AWS_ACCESS_KEY', usernameVariable: '', passwordVariable: '')]) {
+            sh """
+                terraform -chdir=environment/${environment} plan -no-color -out=tfplan
+            """
+        }
     }
 
-    void terraformApply () {
-            // Add the function to terraform Apply
+    def terraformApply(String environment) {
+        withCredentials([usernamePassword(credentialsId: 'AWS_ACCESS_KEY', usernameVariable: '', passwordVariable: '')]) {
+            sh """
+                terraform -chdir=environment/${environment} apply -auto-approve tfplan
+            """
+        }
     }
 }
