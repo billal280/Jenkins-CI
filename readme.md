@@ -1,6 +1,6 @@
 # Jenkins CI (Shared Library)
 
-[![Build](https://img.shields.io/badge/Build-000000?style=for-the-badge&logo=jenkins&logoColor=white&labelColor=000000)](http://jenkins.billalsaidi.fr/)
+[![Build](https://img.shields.io/badge/Build-%23d33833?style=for-the-badge&logo=jenkins&logoColor=white)](https://jenkins.billalsaidi.fr/)
 [![codecov](https://codecov.io/gh/billal280/Jenkins-CI/branch/main/graph/badge.svg)](https://codecov.io/gh/billal280/Jenkins-CI)
 
 ## 📌 Introduction
